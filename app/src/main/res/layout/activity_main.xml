@@ -133,7 +133,7 @@
     </LinearLayout>
 
     <ListView
-        android:id="@+id/lisviewAsset"
+        android:id="@+id/listviewAsset"
         android:layout_marginTop="3dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>

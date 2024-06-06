@@ -1,3 +1,9 @@
 package com.example.projectdongthue
 
-data class ResourceData()
+import java.io.Serializable
+
+data class ResourceData(
+    val person: ArrayList<ConNguoi>,
+    val asset: ArrayList<Taisan>,
+    val sumasset: ArrayList<Int>
+): Serializable
